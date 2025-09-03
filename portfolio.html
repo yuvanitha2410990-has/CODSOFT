@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+       * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 { margin-bottom: 0.5rem; }
+    header p { font-style: italic; }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #444;
+    }
+    .about img {
+      display: block;
+      margin: 1rem auto;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .skills ul, .projects .project-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      gap: 1rem;
+      padding: 0;
+    }
+    .skills li, .project {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .project img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .resume a {
+      display: block;
+      text-align: center;
+      padding: 0.8rem;
+      background: #333;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      max-width: 200px;
+      margin: 1rem auto;
+    }
+    .contact p {
+      text-align: center;
+      margin: 0.5rem 0;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: #fff;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+ 
+  <header>
+    <h1>Yuvanitha A.R</h1>
+    <p>Web Developer | Designer | Creator</p>
+  </header>
+
+    <section class="about">
+    <h2>About Me</h2>
+    <img src="https://i.postimg.cc/MpYM1dY9/Screenshot-2025-08-23-184140.png" alt="Your Photo">
+    <p>Hello! I'm a passionate web developer with experience in HTML, CSS, and JavaScript. I enjoy building creative and responsive websites.</p>
+  </section>
+
+   <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>C-language</li>
+      <li>Python</li>
+      <li>typewritting</li>
+    </ul>
+  </section>
+
+  
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <img src="https://i.postimg.cc/8Cr2qnnH/Screenshot-2025-08-23-184228.png" alt="Project 1">
+        <h3>Apartment Managment System</h3>
+        <p>The Apartment Management System is a software applications designed to help apartment associations manage daily operations more efficiently. it redues manual work, keeps records oraganized, and improves communication between residents and the management.</p>
+      </div>
+      <div class="project">
+        <img src="https://i.postimg.cc/fy5pc4Jw/Screenshot-2025-08-23-184404.png" alt="Project 2">
+        <h3> Student Result Management System</h3>
+        <p>Created a C-based system to manage students records and exam results. the program stores student details, calculates grades, and generates performance reports using file handling techniques.</p>
+      </div>
+    </div>
+  </section>
+
+   <section class="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" download>Download Resume</a>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: youremail@example.com</p>
+    <p>Phone: +123 456 7890</p>
+  </section>
+
+   <footer>
+    <p>&copy; 2025 Yuvanitha. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
