@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background: #222;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.job {
+  background: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+input, button {
+  padding: 8px;
+  margin: 5px 0;
+}
